@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Oscar Aguilar\\Desktop\\Pablo Miguel\\Programaion 3\\Taller 1\\taller-i-programacion-3\\Taller_1_ParteB\\Taller_1_ParteB\\Taller_1_ParteB.vbproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Oscar Aguilar\\Desktop\\Pablo Miguel\\Programaion 3\\Taller 1\\taller-i-programacion-3\\Taller_1_ParteB\\Taller_1_ParteB\\Taller_1_ParteB.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Oscar Aguilar\\Desktop\\Pablo Miguel\\Programaion 3\\Taller 1\\taller-i-programacion-3\\Taller_1_ParteB\\Taller_1_ParteB\\Taller_1_ParteB.vbproj",
+        "projectName": "Taller_1_ParteB",
+        "projectPath": "C:\\Users\\Oscar Aguilar\\Desktop\\Pablo Miguel\\Programaion 3\\Taller 1\\taller-i-programacion-3\\Taller_1_ParteB\\Taller_1_ParteB\\Taller_1_ParteB.vbproj",
+        "packagesPath": "C:\\Users\\Oscar Aguilar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oscar Aguilar\\Desktop\\Pablo Miguel\\Programaion 3\\Taller 1\\taller-i-programacion-3\\Taller_1_ParteB\\Taller_1_ParteB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Oscar Aguilar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

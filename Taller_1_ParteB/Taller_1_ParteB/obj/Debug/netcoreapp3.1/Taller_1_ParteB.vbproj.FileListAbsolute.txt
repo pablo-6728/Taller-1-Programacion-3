@@ -1,0 +1,12 @@
+C:\Users\Oscar Aguilar\Desktop\Pablo Miguel\Programaion 3\Taller 1\taller-i-programacion-3\Taller_1_ParteB\Taller_1_ParteB\obj\Debug\netcoreapp3.1\Taller_1_ParteB.AssemblyInfoInputs.cache
+C:\Users\Oscar Aguilar\Desktop\Pablo Miguel\Programaion 3\Taller 1\taller-i-programacion-3\Taller_1_ParteB\Taller_1_ParteB\obj\Debug\netcoreapp3.1\Taller_1_ParteB.AssemblyInfo.vb
+C:\Users\Oscar Aguilar\Desktop\Pablo Miguel\Programaion 3\Taller 1\taller-i-programacion-3\Taller_1_ParteB\Taller_1_ParteB\obj\Debug\netcoreapp3.1\Taller_1_ParteB.vbproj.CoreCompileInputs.cache
+C:\Users\Oscar Aguilar\Desktop\Pablo Miguel\Programaion 3\Taller 1\taller-i-programacion-3\Taller_1_ParteB\Taller_1_ParteB\bin\Debug\netcoreapp3.1\Taller_1_ParteB.exe
+C:\Users\Oscar Aguilar\Desktop\Pablo Miguel\Programaion 3\Taller 1\taller-i-programacion-3\Taller_1_ParteB\Taller_1_ParteB\bin\Debug\netcoreapp3.1\Taller_1_ParteB.deps.json
+C:\Users\Oscar Aguilar\Desktop\Pablo Miguel\Programaion 3\Taller 1\taller-i-programacion-3\Taller_1_ParteB\Taller_1_ParteB\bin\Debug\netcoreapp3.1\Taller_1_ParteB.runtimeconfig.json
+C:\Users\Oscar Aguilar\Desktop\Pablo Miguel\Programaion 3\Taller 1\taller-i-programacion-3\Taller_1_ParteB\Taller_1_ParteB\bin\Debug\netcoreapp3.1\Taller_1_ParteB.runtimeconfig.dev.json
+C:\Users\Oscar Aguilar\Desktop\Pablo Miguel\Programaion 3\Taller 1\taller-i-programacion-3\Taller_1_ParteB\Taller_1_ParteB\bin\Debug\netcoreapp3.1\Taller_1_ParteB.dll
+C:\Users\Oscar Aguilar\Desktop\Pablo Miguel\Programaion 3\Taller 1\taller-i-programacion-3\Taller_1_ParteB\Taller_1_ParteB\bin\Debug\netcoreapp3.1\Taller_1_ParteB.pdb
+C:\Users\Oscar Aguilar\Desktop\Pablo Miguel\Programaion 3\Taller 1\taller-i-programacion-3\Taller_1_ParteB\Taller_1_ParteB\obj\Debug\netcoreapp3.1\Taller_1_ParteB.dll
+C:\Users\Oscar Aguilar\Desktop\Pablo Miguel\Programaion 3\Taller 1\taller-i-programacion-3\Taller_1_ParteB\Taller_1_ParteB\obj\Debug\netcoreapp3.1\Taller_1_ParteB.pdb
+C:\Users\Oscar Aguilar\Desktop\Pablo Miguel\Programaion 3\Taller 1\taller-i-programacion-3\Taller_1_ParteB\Taller_1_ParteB\obj\Debug\netcoreapp3.1\Taller_1_ParteB.genruntimeconfig.cache
