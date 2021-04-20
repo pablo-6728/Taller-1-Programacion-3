@@ -26,6 +26,8 @@ Module Program
         Dim alto(X) As Integer
         Dim bajo(X) As Integer
         Dim A(X), B(X) As Integer
+        Dim Promedio(X) As Single
+
 
         'FOR DE LECTURAS DE VARIABLES
         Console.WriteLine("CUANTAS ASIGNATURAS VA A RIGISTRAR")
@@ -36,7 +38,7 @@ Module Program
             Console.WriteLine("Digite EL nombre de la Asignatura " & i + 1)
             Asignaturas(i) = Console.ReadLine()
             For W = 0 To (cant2 - 1)
-                Console.WriteLine("Nota del Estudiante " & (W + 1))
+                Console.WriteLine("Nota del Estudiante " & (W + 1))     'La matriz esta hecha de tal forma que las filas son las notas y las columnas los estudiantes
                 Notas(i, W) = Console.ReadLine()
             Next
 
@@ -74,6 +76,22 @@ Module Program
             Next
         Next
 
+        'CALCULO DEL PROMEIO DE LOS ESTUDIANTES
+        For W = 0 To (cant2 - 1)
+            Dim temp As Integer
+            For i = 0 To (cant1 - 1)
+                temp = temp + Notas(i, W)
+            Next
+            Promedio(i) = (temp / cant1)
+            temp = 0
+        Next
+
+        Console.WriteLine("------------------------------------")
+        For i = 0 To (cant2 - 1)
+            For W = 0 To (cant1 - 1)
+                Console.WriteLine("El promedio del estudiante {0} es {1}", i, Promedio(i))
+            Next
+        Next
 
 
         'ESCRITURA DE LA MATRIX
@@ -85,14 +103,12 @@ Module Program
                 Console.WriteLine(Notas(i, W) & "")
             Next
             Console.WriteLine("")
-            Console.WriteLine("La cantidad total de estudiantes matriculados en la materia de " & Asignaturas(i) & "es" & W)
+            Console.WriteLine("La cantidad total de estudiantes matriculados en la materia de " & Asignaturas(i) & " es " & W)
             Console.WriteLine("La nota más alta es: " & alto(i))
             Console.WriteLine("La nota más baja es: " & bajo(i))
             Console.WriteLine("La cantidad de alumnos aprobados es: " & A(i))
             Console.WriteLine("La cantidad de alumnos reprobados es :" & B(i))
         Next
-
-
         Console.ReadLine()
     End Sub
 End Module
