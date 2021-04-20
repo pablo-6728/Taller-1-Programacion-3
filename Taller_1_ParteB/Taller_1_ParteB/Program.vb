@@ -27,6 +27,7 @@ Module Program
         Dim bajo(X) As Integer
         Dim A(X), B(X) As Integer
         Dim Promedio(X) As Single
+        Dim PromMat(X) As Single
 
 
         'FOR DE LECTURAS DE VARIABLES
@@ -82,15 +83,24 @@ Module Program
             For i = 0 To (cant1 - 1)
                 temp = temp + Notas(i, W)
             Next
-            Promedio(i) = (temp / cant1)
+            Promedio(W) = (temp / cant1)
+            temp = 0
+        Next
+
+        'CALCULO DEL PROMEDIO DE LA MATERIA
+        For i = 0 To (cant1 - 1)
+            Dim temp As Integer
+            For W = 0 To (cant2 - 1)
+                temp = temp + Notas(i, W)
+            Next
+            PromMat(i) = (temp / cant2)
+            Console.WriteLine("El promedio del salon de la materia {0} es: {1}", Asignaturas(i), PromMat(i))
             temp = 0
         Next
 
         Console.WriteLine("------------------------------------")
         For i = 0 To (cant2 - 1)
-            For W = 0 To (cant1 - 1)
-                Console.WriteLine("El promedio del estudiante {0} es {1}", i, Promedio(i))
-            Next
+            Console.WriteLine("El promedio del estudiante {0} es {1}", i + 1, Promedio(i))
         Next
 
 
@@ -100,7 +110,7 @@ Module Program
             Console.WriteLine("")
             Console.WriteLine(Asignaturas(i))
             For W = 0 To (cant2 - 1)
-                Console.WriteLine(Notas(i, W) & "")
+                Console.WriteLine("Nota del Estudiante {0}: {1}", W + 1, Notas(i, W))
             Next
             Console.WriteLine("")
             Console.WriteLine("La cantidad total de estudiantes matriculados en la materia de " & Asignaturas(i) & " es " & W)
@@ -108,6 +118,7 @@ Module Program
             Console.WriteLine("La nota más baja es: " & bajo(i))
             Console.WriteLine("La cantidad de alumnos aprobados es: " & A(i))
             Console.WriteLine("La cantidad de alumnos reprobados es :" & B(i))
+            Console.WriteLine("El promedio del salon de la materia {0} es: {1}", Asignaturas(i), PromMat(i))
         Next
         Console.ReadLine()
     End Sub
