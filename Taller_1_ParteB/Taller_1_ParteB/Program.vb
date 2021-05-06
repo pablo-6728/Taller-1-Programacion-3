@@ -1,4 +1,4 @@
-﻿Imports System
+Imports System
 
 Module Program
     Sub Main(args As String())
@@ -9,6 +9,7 @@ Module Program
         Console.WriteLine("           LUQUE, JULIO" & " 08-0961-001454")
         Console.WriteLine("           DIEPPA, LEONARDO" & "  08-0928-000410")
         Console.WriteLine("           PALADINO, PABLO" & "  E-8-165038")
+        Console.WriteLine("           JOSEPH CHARPENTIER" & "  8-939-2313")
         Console.WriteLine("           TRIANES, MOCHETH" & "  8-920-2031")
         Console.WriteLine("Versión de visual: versión 2019 .NET Framework 4.7.2")
         Console.WriteLine("")
